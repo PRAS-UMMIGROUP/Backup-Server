@@ -19,8 +19,8 @@ echo ##   BACKUP DATA TGL : %datetimef%   ##
 echo ######################################
 
 SET backupdir=D:\Backup-DB
-SET mysqluername=antrian
-SET mysqlpassword=antrian
+SET mysqluername=[username]
+SET mysqlpassword=[Password]
 
 SET Target="Z:\"
 SET Cmdnya=xcopy /s /c /d /e /h /i /r /k /y
